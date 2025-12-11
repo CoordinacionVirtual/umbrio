@@ -244,7 +244,7 @@ li a:hover {
 }
 
 .seccion3 .interprete {
-  top: -7% !important;
+  top: -12% !important;
 }
 
 /* Video */
@@ -771,8 +771,7 @@ li a:hover {
   width: 75% !important;
   max-width: 1400px;
   height: 100%;
-  background-color: #220b2eea;/*borrar estas 2 ultimas lineas de codigo*/
-  border-radius: 10px;
+
 }
 
 .carrusel-secc3 {
@@ -787,7 +786,7 @@ li a:hover {
 .prev-secc3,
 .next-secc3 {
   position: absolute;
-  top: 50%;
+  top: 40%;/*50%*/
   transition: transform 0.4s ease, color 0.4s ease;
   z-index: 20;
   background: none;
@@ -857,8 +856,8 @@ li a:hover {
   background: var(--primer-color);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(18px);
-  border: solid 3px var(--segundo-color);
-  box-shadow: 0px 10px 18px rgba(238, 201, 36, 0.144);
+  /* border: solid 3px var(--segundo-color); */
+  box-shadow: 0px 10px 18px rgba(196, 81, 231, 0.144);
   transition: transform 0.3s ease, opacity 0.3s ease;
   position: relative;
 }
@@ -871,7 +870,8 @@ li a:hover {
   transition: opacity 0.3s ease;
 }
 
-#espanto {
+#espanto,
+#noah {
   width: 100%;
   height: 100%;
   object-fit: fill;
