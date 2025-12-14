@@ -870,11 +870,14 @@ li a:hover {
   transition: opacity 0.3s ease;
 }
 #card_Espanto,
-#card_Noah {
+#card_Noah,
+#card_Sombreron {
  border: none;
+ background: none;
 }
 #espanto,
-#noah {
+#noah,
+#sombreron {
   width: 100%;
   height: 100%;
   object-fit: fill;
